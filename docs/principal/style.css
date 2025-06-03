@@ -109,7 +109,8 @@ h3{
   width: auto;
   right: 10px;
   float: right;
-  content: url("/portafolio-docente/principal/images/down-arrow.png");
+  /*content: url("/portafolio-docente/principal/images/down-arrow.png");*/
+  content: url("../../docs/principal/images/down-arrow.png");
 }
 
 .active img{
@@ -117,7 +118,7 @@ h3{
   width: auto;
   right: 10px;
   float: right;
-  content: url("/portafolio-docente/principal/images/up-arrow.png");
+  content: url("../../docs/principal/images/up-arrow.png");
 }
 
 .active, .colapsable:hover {
@@ -163,11 +164,11 @@ hr{
   margin-right: auto;
   width: 90%;
   max-width: 700px;
-  height: 100vh;
+  /*height: 100vh;*/
 }
 
 #contenido-pagina-principal h1{
-  padding-left: 10px;
+  /*padding-left: 10px;*/
 }
 
 #contenido-pagina-principal p{
