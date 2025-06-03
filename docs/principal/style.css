@@ -1,0 +1,407 @@
+@import url(//fonts.googleapis.com/css?family=Tomorrow);
+@import url(//fonts.googleapis.com/css?family=Chakra+Petch);
+@import url(//fonts.googleapis.com/css?family=Work+Sans);
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow:ital,wght@0,300;0,400;0,600;0,700;0,800;1,700&family=Tourney:wght@300;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow:ital,wght@1,300&display=swap');
+
+body{
+font-family: 'Tomorrow', 'Chakra Petch', -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+background-color: rgb(255, 255, 255);
+
+background-color: #e7e7e7;
+}
+
+/*
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background: linear-gradient(-45deg, rgb(212, 255, 0), #23d549, rgb(212, 255, 0), #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+*/
+
+
+#contenido {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  max-width: 700px;
+}
+
+
+
+.contenedor-iframe {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+}
+
+.contenedor-iframe iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+h3{
+  margin-bottom: 0;
+  padding-right: 18px;
+  padding-left: 18px;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  /*
+  font-family: 'Work Sans';
+  */
+  font-family: 'Tomorrow', sans-serif;
+  font-weight: normal;
+  background-color: white;
+  display: inline-block;
+}
+
+.contenido-colapsable {
+ /* padding: 0 18px;*/
+  display: none;
+  overflow: hidden;
+  background-color: #cdcccc; 
+ }
+
+.colapsable {
+  color: rgb(0, 0, 0);
+  /*background-color: rgb(210, 210, 210);*/
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  
+  border: none;
+  
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  /*font-family: 'Work Sans', 'Chakra Petch', sans-serif;*/
+  font-family: 'Tomorrow', sans-serif;
+  margin-top: 1px;
+}
+
+.colapsable img{
+  height: 20px;
+  width: auto;
+  right: 10px;
+  float: right;
+  content: url("/portafolio-docente/principal/images/down-arrow.png");
+}
+
+.active img{
+  height: 20px;
+  width: auto;
+  right: 10px;
+  float: right;
+  content: url("/portafolio-docente/principal/images/up-arrow.png");
+}
+
+.active, .colapsable:hover {
+  background-color: rgba(212, 255, 0);
+  /*
+  margin-left: -5%;
+  width: 105%;
+  */
+}
+
+h1{
+  font-family: 'Tomorrow', sans-serif;
+  margin-top: 5px;
+  margin-bottom: 10px;;
+  font-weight: 200;
+  color: rgb(0, 0, 0);
+}
+
+.ubicacion{
+  margin-bottom: 5px;
+}
+
+.ubicacion a{
+  text-decoration: none;
+  color: black;
+}
+
+.ubicacion a:hover{
+  color: blue;
+}
+
+hr{
+  margin-bottom: 40px;
+}
+
+#titulo-portafolio{
+  font-size: 50px;
+}
+
+#contenido-pagina-principal{
+  background-color: #e7e7e7;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  max-width: 700px;
+  height: 100vh;
+}
+
+#contenido-pagina-principal h1{
+  padding-left: 10px;
+}
+
+#contenido-pagina-principal p{
+  padding-left: 20px;
+  margin-top: 8px;
+  /*font-weight: 300;*/
+}
+
+.indice{
+  padding-left: 40px;
+
+}
+
+.indice a{
+ /* font-family: 'Work Sans';*/
+  font-family: 'Tomorrow';
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.indice a:hover{
+  color: rgb(0, 0, 255);
+}
+
+h2{
+  font-family: 'Tomorrow', sans-serif;
+  margin-top: 5px;
+  margin-bottom: 10px;;
+  font-weight: normal;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  width: 90%;
+}
+
+.texto{
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.filosofia{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+}
+
+.texto b{
+ font-weight: 600;
+}
+
+.texto i{
+  font-weight: 300;
+}
+
+.cursos p{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.presentacion b{
+  font-weight: 600;
+}
+
+.contenido-colapsable {
+  background-color: #e7e7e7;
+
+  background-color: rgb(255, 255, 255);
+}
+
+.contenido-colapsable h3{
+  background-color: #e7e7e7;
+  
+}
+
+.proyectop5js{
+  margin-top: 0px;
+}
+
+.autor-trabajo{
+  margin-bottom: 5px;
+}
+
+.link{
+  font-weight: 400;
+  text-decoration: none;
+  color: blue;
+}
+
+.imagen-proyecto{
+  width: 100%;
+}
+
+h4{
+  padding-left: 20px;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.conoce-mas{
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: black;
+  transform: translateX(-50%);
+  margin-left: 50%;
+  width: 70%;
+  text-align: center;
+}
+
+.conoce-mas:hover{
+  background-color: rgba(212, 255, 0);
+  cursor: pointer;
+  width: 70%;
+  text-align: center;
+}
+
+.linea-seccion{
+  width: 20%;
+  margin-left: 0px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  color: #e7e7e7;
+  
+}
+
+.boton-volver{
+  font-size: 15px;
+  display: inline;
+}
+
+.ubicacion-volver h2{
+  display: inline;
+  margin: 0;
+ }
+
+.ubicacion-volver{
+  display: flex;
+  flex: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.ubicacion-volver a{
+  margin-top: 10px;
+}
+
+header{
+  position: fixed;
+}
+
+.subtitulo{
+  font-size: 16px;
+  margin-bottom: 5px;
+  font-weight: 400;
+  color: blue;
+}
+
+.cursos ol{
+  margin-top: 0px;
+  padding-right: 20px;
+}
+
+.microrrelato{
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.info-trabajo{
+  margin-bottom: 1px;
+  margin-top: 1px;
+  font-weight: 200;
+}
+
+.info-trabajo b{
+  font-weight: 400;
+}
+
+.contenedor-podcast{
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 20px;
+}
+
+.division-proyectos{
+  color: #ffffff;
+  
+}
+.contenedor-podcast img{
+  width: 100%;
+}
+
+.podcast {
+  width: 100%;
+}
+.criatura-digital a{
+  display: block;
+}
+
+.criatura-digital iframe{
+  width: 50vw;
+  height: 50vw;
+  margin-top: 10px;
+  max-width: 600px;
+  max-height: 600px;
+  transform: translateX(-50%);
+  margin-left: 50%;
+ }
+
+.criatura-digital a iframe {
+  pointer-events: none;
+}
+
+
+.texto-bajo-subtitulo{
+  margin-top: 5px;
+}
+
+
+.contenedor-video {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+}
+
+.contenedor-video video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
