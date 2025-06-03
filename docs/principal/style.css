@@ -407,8 +407,15 @@ header{
   height: 100%;
 }
 
-.seccion-titulo{
- background-color: transparent;
-  color: rgb(2, 53, 255);
-  font-weight:normal;
+h3.seccion-titulo{
+
+  background-color: transparent;
+  font-weight:500;
+  font-style: italic;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  color: rgb(0, 0, 255);
 }
